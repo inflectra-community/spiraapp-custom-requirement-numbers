@@ -1,0 +1,268 @@
+guid: 1f4abf26-0873-416e-8b8a-4bb61ed3b45b
+name: customRequirementsNumbering
+caption: Custom Requirements Numbering
+summary: Assigns project-unique, prefix-based requirement numbers per requirement type and can substitute them into the requirement Name.
+description: >
+  Custom Requirements Numbering assigns a project-unique number to each
+  Requirement, based on a prefix looked up per Requirement type from up to
+  20 admin-configured Type/Prefix pairs (each an ordinary native setting -
+  no custom fields on the requirement itself). When a user saves a
+  requirement, the SpiraApp writes the next available number for that
+  type's prefix into a chosen custom property, zero-padded to 4 digits,
+  and never reuses a number. Optionally the same value is copied into the
+  requirement Name. See Readme.md for full configuration and behaviour
+  details.
+productSummary: Assigns project-unique, prefix-based requirement numbers and can substitute them into the requirement Name.
+productDescription: >
+  Configure a prefix for up to 20 Requirement types (see Readme.md),
+  choose which custom property stores the generated number, and
+  optionally have the requirement Name kept in sync with it automatically.
+author: Inmarsys Limited
+url: https://github.com/Inmarsys/CustomRequirementsNumbering
+license: Inmarsys Non-Resale License 1.0
+copyright: Copyright Inmarsys Limited
+version: 0.1
+
+pageContents:
+  - pageId: 9
+    name: customRequirementsNumberingDetails
+    code: file://requirementDetails.js
+
+productSettings:
+  - settingTypeId: 3
+    artifactTypeId: 1
+    name: rnfPropertyName
+    caption: Requirement Number Custom Property
+    position: 1
+    tooltip: >
+      Select the custom TEXT property that will store the generated
+      requirement number (e.g. SWFR0007). Must be a plain-text custom
+      property on Requirements. Set it read-only in the workflow to
+      prevent accidental editing.
+  - settingTypeId: 10
+    name: nameSubstitution
+    caption: Substitute Name for Requirement Number
+    position: 2
+    tooltip: >
+      When ticked, the requirement Name is overwritten with its generated
+      number on every save.
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type1
+    caption: "Requirement Type 1"
+    settingGroup: Type Prefixes
+    position: 3
+  - settingTypeId: 1
+    name: prefix1
+    caption: "Prefix 1"
+    settingGroup: Type Prefixes
+    position: 4
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type2
+    caption: "Requirement Type 2"
+    settingGroup: Type Prefixes
+    position: 5
+  - settingTypeId: 1
+    name: prefix2
+    caption: "Prefix 2"
+    settingGroup: Type Prefixes
+    position: 6
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type3
+    caption: "Requirement Type 3"
+    settingGroup: Type Prefixes
+    position: 7
+  - settingTypeId: 1
+    name: prefix3
+    caption: "Prefix 3"
+    settingGroup: Type Prefixes
+    position: 8
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type4
+    caption: "Requirement Type 4"
+    settingGroup: Type Prefixes
+    position: 9
+  - settingTypeId: 1
+    name: prefix4
+    caption: "Prefix 4"
+    settingGroup: Type Prefixes
+    position: 10
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type5
+    caption: "Requirement Type 5"
+    settingGroup: Type Prefixes
+    position: 11
+  - settingTypeId: 1
+    name: prefix5
+    caption: "Prefix 5"
+    settingGroup: Type Prefixes
+    position: 12
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type6
+    caption: "Requirement Type 6"
+    settingGroup: Type Prefixes
+    position: 13
+  - settingTypeId: 1
+    name: prefix6
+    caption: "Prefix 6"
+    settingGroup: Type Prefixes
+    position: 14
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type7
+    caption: "Requirement Type 7"
+    settingGroup: Type Prefixes
+    position: 15
+  - settingTypeId: 1
+    name: prefix7
+    caption: "Prefix 7"
+    settingGroup: Type Prefixes
+    position: 16
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type8
+    caption: "Requirement Type 8"
+    settingGroup: Type Prefixes
+    position: 17
+  - settingTypeId: 1
+    name: prefix8
+    caption: "Prefix 8"
+    settingGroup: Type Prefixes
+    position: 18
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type9
+    caption: "Requirement Type 9"
+    settingGroup: Type Prefixes
+    position: 19
+  - settingTypeId: 1
+    name: prefix9
+    caption: "Prefix 9"
+    settingGroup: Type Prefixes
+    position: 20
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type10
+    caption: "Requirement Type 10"
+    settingGroup: Type Prefixes
+    position: 21
+  - settingTypeId: 1
+    name: prefix10
+    caption: "Prefix 10"
+    settingGroup: Type Prefixes
+    position: 22
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type11
+    caption: "Requirement Type 11"
+    settingGroup: Type Prefixes
+    position: 23
+  - settingTypeId: 1
+    name: prefix11
+    caption: "Prefix 11"
+    settingGroup: Type Prefixes
+    position: 24
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type12
+    caption: "Requirement Type 12"
+    settingGroup: Type Prefixes
+    position: 25
+  - settingTypeId: 1
+    name: prefix12
+    caption: "Prefix 12"
+    settingGroup: Type Prefixes
+    position: 26
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type13
+    caption: "Requirement Type 13"
+    settingGroup: Type Prefixes
+    position: 27
+  - settingTypeId: 1
+    name: prefix13
+    caption: "Prefix 13"
+    settingGroup: Type Prefixes
+    position: 28
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type14
+    caption: "Requirement Type 14"
+    settingGroup: Type Prefixes
+    position: 29
+  - settingTypeId: 1
+    name: prefix14
+    caption: "Prefix 14"
+    settingGroup: Type Prefixes
+    position: 30
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type15
+    caption: "Requirement Type 15"
+    settingGroup: Type Prefixes
+    position: 31
+  - settingTypeId: 1
+    name: prefix15
+    caption: "Prefix 15"
+    settingGroup: Type Prefixes
+    position: 32
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type16
+    caption: "Requirement Type 16"
+    settingGroup: Type Prefixes
+    position: 33
+  - settingTypeId: 1
+    name: prefix16
+    caption: "Prefix 16"
+    settingGroup: Type Prefixes
+    position: 34
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type17
+    caption: "Requirement Type 17"
+    settingGroup: Type Prefixes
+    position: 35
+  - settingTypeId: 1
+    name: prefix17
+    caption: "Prefix 17"
+    settingGroup: Type Prefixes
+    position: 36
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type18
+    caption: "Requirement Type 18"
+    settingGroup: Type Prefixes
+    position: 37
+  - settingTypeId: 1
+    name: prefix18
+    caption: "Prefix 18"
+    settingGroup: Type Prefixes
+    position: 38
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type19
+    caption: "Requirement Type 19"
+    settingGroup: Type Prefixes
+    position: 39
+  - settingTypeId: 1
+    name: prefix19
+    caption: "Prefix 19"
+    settingGroup: Type Prefixes
+    position: 40
+  - settingTypeId: 11
+    artifactTypeId: 1
+    name: type20
+    caption: "Requirement Type 20"
+    settingGroup: Type Prefixes
+    position: 41
+  - settingTypeId: 1
+    name: prefix20
+    caption: "Prefix 20"
+    settingGroup: Type Prefixes
+    position: 42
