@@ -1,21 +1,42 @@
-MIT License
+Inmarsys Non-Resale License 1.0
 
-Copyright (c) 2026 Inflectra Community
+Copyright (c) Inmarsys Limited
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software (the "Software") to use, copy, modify, distribute,
+and host the Software, including within or by commercial organisations,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Neither the Software, nor any modified version or derivative of it,
+   may be sold, sublicensed, rebranded, or otherwise distributed or
+   offered as a standalone product in exchange for payment. This
+   restriction applies specifically to the Software itself. It does not
+   restrict:
+   - charging fees for services performed in connection with the
+     Software, including installation, configuration, customisation,
+     support, hosting, or maintenance; or
+   - including the Software as part of a larger product, service, or
+     bundle offered for a fee, provided no separate or itemised charge
+     is applied specifically for the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. The Software is designed to operate exclusively within Inflectra's
+   SpiraTeam/SpiraPlan platform ("the Platform"). Any hosted or managed
+   provision of the Software is therefore necessarily hosted within the
+   Platform, and is permitted on the same basis as any other service
+   under condition 1 above, provided no separate or itemised charge is
+   applied specifically for the Software as distinct from hosting or
+   administering the Platform itself.
+
+3. The above copyright notice, and the identification of Inmarsys
+   Limited as the original author, must be retained, unmodified, in all
+   copies or substantial portions of the Software (including modified
+   versions), and may not be removed, obscured, or replaced with a
+   different name or copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
